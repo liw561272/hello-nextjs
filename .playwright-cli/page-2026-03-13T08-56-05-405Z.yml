@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]: 对话历史
+          - button [ref=e8]:
+            - img [ref=e9]
+        - button "新对话" [ref=e12]:
+          - img [ref=e13]
+          - generic [ref=e14]: 新对话
+        - generic [ref=e16]: 还没有对话记录
+        - link "返回首页" [ref=e18] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e19]:
+        - generic [ref=e21]:
+          - generic [ref=e23]:
+            - img [ref=e24]
+            - generic [ref=e26]: 构建终端
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - paragraph [ref=e32]: 描述你想要构建的网站
+            - paragraph [ref=e33]: 例如：创建一个现代化的落地页，包含英雄区域、功能介绍和定价方案
+          - generic [ref=e35]:
+            - textbox "描述你的需求..." [ref=e37]
+            - button [disabled] [ref=e38]:
+              - img [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e45]: 预览
+          - generic [ref=e47]:
+            - img [ref=e49]
+            - paragraph [ref=e51]: 在左侧输入需求开始构建
+  - button "Open Next.js Dev Tools" [ref=e57] [cursor=pointer]:
+    - img [ref=e58]
+  - alert [ref=e61]
